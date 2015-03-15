@@ -1,0 +1,69 @@
+pane, .view{
+	background: #2C3E50;
+}
+.bar-color{
+    	background-color:#2C3E50;
+}
+
+.bar .title{
+color:white;
+}
+
+.over-lay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block; 
+	min-width: 100%; min-height: 100%;
+	background: #2C3E50;
+}
+
+.button-group{
+	position: absolute;
+	bottom: 40px;
+}
+
+.logo img{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30%;
+}
+
+.logo h1{
+	text-align: center;
+	color: #fff;
+	font-family: 'a_love_of_thunderregular'
+}
+
+.button-group button{
+	border: none;
+	background: rgba(255,255,255,0.50);
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.23), 0px 3px 6px 0px rgba(0,0,0,0.16);
+	border-radius: 2px;
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+video{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block; 
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url("../img/placeholder.jpg") no-repeat;
+	background-size: cover;
+}
+
+.button.button-calm.button-clear {
+color: #2C3E50;
+}
+
+.pane1, .view{
+    background-color:#2C3E50;
+}

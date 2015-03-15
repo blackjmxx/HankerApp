@@ -1,0 +1,96 @@
+<style>
+/* line 12, ../sass/test.scss */
+.progress-pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+  position: relative;
+}
+/* line 18, ../sass/test.scss */
+.progress-pie-chart.gt-50 {
+  background-color: #81CE97;
+}
+
+/* line 22, ../sass/test.scss */
+.ppc-progress {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 200px, 200px, 100px);
+}
+/* line 25, ../sass/test.scss */
+.ppc-progress .ppc-progress-fill {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 100px, 200px, 0);
+  background: #81CE97;
+  transform: rotate(60deg);
+}
+/* line 31, ../sass/test.scss */
+.gt-50 .ppc-progress {
+  clip: rect(0, 100px, 200px, 0);
+}
+/* line 33, ../sass/test.scss */
+.gt-50 .ppc-progress .ppc-progress-fill {
+  clip: rect(0, 200px, 200px, 100px);
+  background: #E5E5E5;
+}
+
+/* line 39, ../sass/test.scss */
+.ppc-percents {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 173.91304px/2);
+  top: calc(50% - 173.91304px/2);
+  width: 173.91304px;
+  height: 173.91304px;
+  background: #fff;
+  text-align: center;
+  display: table;
+}
+/* line 44, ../sass/test.scss */
+.ppc-percents span {
+  display: block;
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #81CE97;
+}
+
+/* line 51, ../sass/test.scss */
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 58, ../sass/test.scss */
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+}
+
+/* line 62, ../sass/test.scss */
+.progress-pie-chart {
+  margin: 50px auto 0;
+}
+</style>
+<div class="progress-pie-chart" data-percent="43">
+  <div class="ppc-progress">
+    <div class="ppc-progress-fill"></div>
+  </div>
+  <div class="ppc-percents">
+    <div class="pcc-percents-wrapper">
+      <span>%</span>
+    </div>
+  </div>
+</div>

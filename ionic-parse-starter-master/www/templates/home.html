@@ -1,0 +1,20 @@
+<<div class="bar bar-header bar-color">
+    <button ng-click="myGoBack()"class="button icon-left ion-chevron-left button-clear button-white">Back</button>
+  <h1 class="title">Mes projets 2</h1>
+<button class="button button-icon button-clear button-white" ng-click="">
+        <i class="icon ion-compose"></i>
+      </button>
+</div>
+<ion-view   right-buttons="rightButtons">     
+    <ion-content class="has-header">
+      <!-- our list and list items -->
+         {{user.attributes.email}}
+      <ion-list>
+        <ion-item ng-repeat="task in projects">
+          {{task.title}}/{{task.spared}}/{{task.aim}}/{{task.date}}
+        </ion-item>
+      </ion-list>
+        <ion-radial-progress timer="100" color="'#00ffff'" backgroundColor="'#00ffff'"></ion-radial-progress>
+          <div my-test></div>
+    </ion-content>
+</ion-view>

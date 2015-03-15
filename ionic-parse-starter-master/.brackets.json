@@ -1,0 +1,13 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/platforms/ios/build/emulator/StarterApp.app/www/lib/parse/parse.min.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/lib/ionic/js/ionic.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/lib/ionic/js/ionic.min.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/lib/parse/parse.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/platforms/ios/www/lib/angular-ui-router/src/viewScroll.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/lib/ng-cordova/ng-cordova.min.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/js/controllers.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/www/lib/parse/parse.min.js",
+        "/Users/blackjmxx/Downloads/ionic-parse-starter-master/platforms/ios/www/lib/ionic/js/ionic.min.js"
+    ]
+}
